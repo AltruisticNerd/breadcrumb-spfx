@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://votematrix.sharepoint.com/sites/BreadcrumbSPFX/SitePages/Home.aspx",
+      "customActions": {
+        "bab88b57-e876-4e2e-aa7f-71d71068f76c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "ConfigurationSiteURL": "/sites/BreadcrumbSPFX",
+            "RootURL": "http://votematrix.com",
+            "RootTitle": "Home"
+          }
+        }
+      }
+    },
+    "breadcrumbSpfx": {
+      "pageUrl": "https://votematrix.sharepoint.com/sites/BreadcrumbSPFX/SitePages/Home.aspx",
+      "customActions": {
+        "bab88b57-e876-4e2e-aa7f-71d71068f76c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "ConfigurationSiteURL": "/sites/BreadcrumbSPFX",
+            "RootURL": "http://votematrix.com",
+            "RootTitle": "Home"
+          }
+        }
+      }
+    }
+  }
+}
