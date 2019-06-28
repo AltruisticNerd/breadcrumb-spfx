@@ -1,26 +1,5 @@
-## breadcrumb-spfx
+# Breadcrumb SPFX Solution
 
-This is where you include your WebPart documentation.
+The Breadcrumb SPFX Feature will add a global breadcrumb to your Office 365 SharePoint site page header.
 
-### Building the code
-
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+The breadcrumb is configured using a Site Collection list that creates a hierarchy of pages, sites, lists, and libraries to mimic a hierarchical navigation.
